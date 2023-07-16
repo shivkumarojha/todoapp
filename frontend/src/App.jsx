@@ -14,7 +14,7 @@ export default function App() {
     console.log(e.target.value)
   }
   useEffect(() => {
-    fetch("http://localhost:3000/api/v1/tasks", {
+    fetch("https://todoapp-d47c.onrender.com/api/v1/tasks", {
       method: "GET",
     })
       .then((response) => response.json())
@@ -57,7 +57,7 @@ export default function App() {
 
   const deleteTodo = (e) => {
     const todoId = e.target.id
-    fetch(`http://localhost:3000/api/v1/tasks/${todoId}`,{
+    fetch(`https://todoapp-d47c.onrender.com/api/v1/tasks/${todoId}`,{
       method: 'DELETE',
       headers: {
         'Content-Type': 'appication/json'

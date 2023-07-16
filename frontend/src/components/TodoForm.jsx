@@ -22,7 +22,7 @@ export default function TodoForm({ todos, setTodos }) {
 
   const addTodo = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/api/v1/tasks", {
+    fetch("https://todoapp-d47c.onrender.com/api/v1/tasks", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
