@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    background-color: rgb(227, 229, 230);
+}
+
+.heading {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(69, 65, 65);
+    text-align: center;
+}
+.todo-form {
+    text-align: center;
+}

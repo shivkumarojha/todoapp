@@ -1,0 +1,113 @@
+form{
+    margin-top: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+#repeat {
+    width: 20px;
+    height: 20px;
+    
+}
+
+#add-task-button {
+    padding: 10px;   
+    margin: 15px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    transition: transform 0.2s;
+}
+
+#add-task-button:hover {
+    background-color: aquamarine;
+    /* padding: 12px 12px; */
+    transform: scale(1.1);
+
+
+}
+
+
+.todo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: c;
+    
+}
+
+.todo-card ul {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 0 0 calc(100% / 6);
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: relative;
+
+
+}
+.todo-card ul li:first-child {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: monospace  ;
+}
+
+.todo-card ul li:nth-child(2) {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: monospace  ;
+}
+
+.date-time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+
+.delete-todo-button {
+    background-color: rgb(90, 1, 1);
+    color: wheat;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px 15px;
+    transition: transform 0.2s;
+}
+
+.delete-todo-button:hover {
+    background-color: rgb(103, 13, 13);
+    margin-left: auto;
+    transform: scale(1.1);
+}
+
+
+.repeat-delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 5px;
+    
+}
+#repeat-icon {
+    margin-right:100px;
+}
